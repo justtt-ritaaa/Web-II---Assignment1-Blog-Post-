@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px 0px;
+  gap: 10px;
+  align-items: start;
+}
+
+.title-row h3 {
+  margin: 0 ;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.each-post {
+  background-color: rgb(247, 247, 247);
+  border: solid 1px;
+  border-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.each-post p {
+  margin: 15px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#blog-form {
+  margin: 10px 0;
+}
